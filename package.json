@@ -1,0 +1,23 @@
+{
+  "name": "lab-mongodb-query-document-1",
+  "version": "1.0.0",
+  "description": "![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)\r # PROGRAD LABS | MONGODB | WORKING WITH QUERY - MODULE 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamNickGammer/lab-mongodb-query-document-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamNickGammer/lab-mongodb-query-document-1/issues"
+  },
+  "homepage": "https://github.com/SamNickGammer/lab-mongodb-query-document-1#readme",
+  "dependencies": {
+    "mongodb": "^4.8.1",
+    "nodemon": "^2.0.19"
+  }
+}
