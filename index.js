@@ -12,7 +12,7 @@ const url = 'mongodb://localhost:27017/';
 
 mongoClient.connect(url, (err, db) => {
   if (err) throw err;
-  var dbo = db.db('companiesDB');
+  var dbo = db.db('samnickCompanyDB');
   dbo.collection('companies').findOne({ name: 'Babelgum' }, (err, res) => {
     if (err) throw err;
     console.log(res);
